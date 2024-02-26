@@ -32,8 +32,8 @@ def scroll_page():
 def scrape_curr_page(start_month,curr_year):
     target_url = new_url(start_month,curr_year)
     driver.get(target_url)
-    for i in range(7):
-        time.sleep(10)  
+    for i in range(5):
+        time.sleep(7)  
         resp = driver.page_source
         soup = BeautifulSoup(resp, 'html.parser')
         
@@ -71,6 +71,6 @@ start_months = [1,3,5,7,9,11]
 for year in range(2013,2023):
     for start_month in start_months:
         scrape_curr_page(start_month, year)
-        time.sleep(10)
+        time.sleep(2)
 
 write_to_csv()
