@@ -10,16 +10,13 @@ tweets = []
 
 def new_url(start_month, year):
     end_year = year
-    if(start_month == 12):
-        end_month = 2
+    if(start_month == 11):
+        end_month = 1
         end_year = year + 1
     else:
         end_month = start_month + 2
     
-    if (start_month == 2):
-        end_year = year + 1
-        year = year + 1
-        end_month = 3
+    
     
     year = str(year)
     end_year = str(end_year)
@@ -69,7 +66,7 @@ def write_to_csv():
             writer.writerow({'date': tweet['date'], 'text': clean_text, 'user': tweet['user']})
     print(f"Data has been written to {csv_file_name}")
 
-start_months = [8,10,12,2]
+start_months = [1,3,5,7,9,11]
 
 for year in range(2013,2023):
     for start_month in start_months:
