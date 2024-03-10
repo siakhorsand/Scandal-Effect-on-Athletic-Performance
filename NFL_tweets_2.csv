@@ -1,4 +1,4 @@
-Player ,date,text,user,compound,contains_player
+player ,date,text,user,compound,contains_player
 Odell Beckham Jr.,12/22/15,Odell Beckham Jr. is suspended for one game by the NFL http://nyti.ms/22lNNFS,nytimes,-0.4767,TRUE
 Mike Evans,11/14/16,NFL star Mike Evans sits during national anthem to protest Donald Trump election victory http://cnn.it/2fqGGLP,CNN,-0.25,TRUE
 Josh Shaw ,11/30/19,"Josh Shaw, a defensive back for the Arizona Cardinals, has been suspended through at least the 2020 season for betting on NFL games, the league says https://cnn.it/2OXejox",CNN,-0.4588,TRUE
