@@ -1,20 +1,5 @@
-This is your group repo for your final project for COGS108.
+The sports industry is one of the most significant forms of entertainment in the world, generating over $300 billion per year. The sheer size of this industry and the amount of attention it receives on a daily basis makes athletes some of the most famous people in the country. This begs the question of whether the negative consequences of fame have a noticeable effect on players’ morale and performance. This project embarks on a journey to explore and analyze the impact of scandals, followed by negative media attention on the performance of professional athletes across football, basketball, and baseball leagues. For the purposes of this project, we define a scandal as a public controversial event, such as legal issues and news from the athletes’ personal life. By meticulously compiling and analyzing datasets consisting of player performance metrics, and extracting sentiment data from social media, this study uncovers the complexities in the relationship between off-field controversies and on-field performance. Through the application of data and sentiment analysis, and visualization techniques, this project presents an examination of athlete performance metrics in relation to the timing and intensity of off-field incidents reported by news and social media.
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+Our methods include sentiment analysis of media coverage, statistical analysis of performance data through models and visualizations, while considering ethical standards. Initial findings suggest a subtle impact, with a majority of athletes showing a decline in performance in the first few games post-scandal, while a few others demonstrate a different reaction by improving. This highlights the variable nature of reactions to negative attention from the media, but indicates the clear impact that it has on the morale of athletes, whether positive or negative.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
-
-This repository will be frozen on the final project due date. No further changes can be made after that time.
-
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
-
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
-
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+This project is important in terms of its contributions to sports sociology discourse, highlighting the impact of public scrutiny on players’ morale, laying the groundwork for future research regarding the long term effects on athletes’ careers and overall mental well-being.
